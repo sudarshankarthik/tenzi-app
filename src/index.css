@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen';
+  background-color: antiquewhite;
+}
+
+main {
+  border: solid 10px black;
+  width: 80vh;
+  height: 80vh;
+  margin: 50px auto;
+  background-color: rgb(255, 254, 250);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.diceSection {
+  display: grid;
+  grid-template: auto auto / repeat(4,1fr);
+  gap: 20px;
+  
+}
+
+.die {
+  width: 4vw;
+  height: 4vw;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 12px;
+  box-shadow: 1px 0.6px 0.6px rgba(0,0,0,0.55);
+  background-color: rgb(240, 249, 255);
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.die label {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.Roll-Btn {
+  font-size: 25px;
+  color: white;
+  background-color: rgb(0, 115, 255);
+  border-radius: 12px;
+  margin: 25px;
+  padding: 15px;
+  cursor: pointer;
+}
